@@ -1,0 +1,28 @@
+#mainHeading {
+    position: absolute;
+    left: calc(50% - 180px);
+    margin-top: 20px;
+}
+
+.headline {
+    text-decoration: none;
+    font-size: 20px;
+    margin: 5px;
+    padding: 5px;
+    color: blue;
+}
+
+#container {
+    position: absolute;
+    width: 80%;
+    left: 10%;
+    top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+a {
+    text-decoration: none;
+}
